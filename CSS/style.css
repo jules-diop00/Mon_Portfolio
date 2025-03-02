@@ -1,0 +1,154 @@
+body{
+    background-image: url(https://wallpaper.forfun.com/fetch/52/522dd9c47bfc477dbfa76538a7507954.jpeg?w=1000&r=0.5625);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    position: fixed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+header{
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient();
+}
+.logo img{
+    max-width: 100px;
+    height: auto;
+    display: flex;
+}
+.navbar{
+    list-style: none;
+    display: flex; 
+    margin-left: 800px;
+    gap: 20px;
+
+}
+.navbar li{
+    margin-left: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1em;
+    text-decoration: none;
+    transition: color 0.3s ease, filter 0.3s ease;
+    z-index: 2000;
+}
+.navbar a:hover{
+    display: block;
+    color: #1384cc;
+    filter: drop-shadow(0 0 10px #1384cc);
+}
+.About{
+    display: flex;
+}
+.about-section {
+    display: flex; 
+    justify-content: space-between; /* Espace entre le texte et l'image */
+    align-items: center; /* Centre verticalement les éléments */
+    padding: 40px; /* Augmente l'espace autour de la section */
+    min-height: 400px; /* Définit une hauteur minimale pour la section (ajustez selon vos besoins) */
+    height: 800px;
+}
+
+.about-content {
+    flex: 1; /* Permet au texte de prendre l'espace disponible */
+    max-width: 600px; /* Limite la largeur du texte (ajustez selon vos besoins) */
+    color: white;
+    filter: drop-shadow(0 0 10px #1384cc);
+    
+}
+.about-image img {
+    max-width: 300px; /* Limite la taille de l'image (ajustez selon vos besoins) */
+    height: auto; /* Maintient le ratio d'aspect de l'image */
+    border-image: fill;
+    overflow: hidden; /* Cache la partie de l'image qui dépasse */
+    position: relative;    
+    animation: move 2s infinite; /* Animation de mouvement continue */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition douce pour le zoom et l'ombre */
+}
+@keyframes move  {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+.about-image img:hover {
+    transform: scale(1.1); /* Agrandit l'image au survol */
+    box-shadow: 0 0 20px #1384cc; 
+}
+
+.ensemble-project {
+    top: -100px;
+    color: white; 
+    text-align: center; 
+    padding: 40px;
+    border-radius:
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    margin: 20px; 
+    transition: transform 0.3s ease; 
+    position: relative;
+}
+
+.ensemble-project a {
+    color: white;
+    font-size: 1.5em; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border: 2px solid white; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.ensemble-project a:hover {
+    background-color: white; 
+    color: #0072b1; 
+    transform: scale(1.05); 
+}
+
+.ensemble-project a:hover{
+    color: #1384cc;
+    box-shadow: 0 0 20px #1384cc;
+}
+
+
+.reseaux{
+    display: flex;
+    justify-content: center;
+}
+.reseaux a:hover{
+    box-shadow: 0 0 5px var(--color, #0072b1),
+      0 0 200px var(--color, #0072b1);
+
+}
+.reseaux-sociaux a{
+    margin: 0 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    color: blue;
+    font-size: 2.5em;
+    --webkit-box-reflect: below 5px linear-gradient(to bottom, black, black);
+ 
+}
+.reseaux-sociaux a:hover{
+    background: var(--color, #000000);
+    box-shadow: 0 0 5px var(--color, #0072b1),
+      0 0 200px var(--color, #0072b1);
+}
