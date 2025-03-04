@@ -1,5 +1,5 @@
 body{
-    /*background-image: url(https://images.pexels.com/photos/18668363/pexels-photo-18668363/free-photo-of-araignee-tisserande-tropicale-sur-sa-toile.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);*/
+    background-image: url(https://wallpaper.forfun.com/fetch/a5/a53b32dd99498031ca356becc4a0512e.jpeg?w=1470&r=0.5625);
     background-color: #2d2727c7; /* Couleur de fond de secours */
     background-repeat: no-repeat; /* Ne pas répéter l'image */
     background-size: cover; /* Couvre tout l'écran */
@@ -185,7 +185,7 @@ header{
     height: 100vh;
 }
 .contact h1{
-    color: #0072b1;
+    color: #ffffff;
     justify-content: center;
     align-items: center;
     margin-left: 100px;
