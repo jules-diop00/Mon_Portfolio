@@ -13,17 +13,18 @@ nav{
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
 }
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center ;
+    
 }
 header{
     height: 100vh;
     position: fixed;
-    background: linear-gradient();
+    background: linear-gradient();    
+    z-index: 1000;
 }
 .logo img{
     max-width: 100px;
@@ -39,6 +40,7 @@ header{
 }
 .navbar li{
     margin-left: 20px;
+    
 }
 .navbar a{
     text-decoration: none;
@@ -47,7 +49,6 @@ header{
     font-size: 1em;
     text-decoration: none;
     transition: color 0.3s ease, filter 0.3s ease;
-    z-index: 2000;
 }
 .navbar a:hover{
     display: block;
@@ -63,8 +64,7 @@ header{
     align-items: center; /* Centre verticalement les éléments */
     padding: 40px; /* Augmente l'espace autour de la section */
     min-height: 400px; /* Définit une hauteur minimale pour la section (ajustez selon vos besoins) */
-    height: 800px;
-    
+    height: 800px; 
     
 }
 
@@ -104,6 +104,8 @@ header{
     position: relative;    
     animation: move 2s infinite; /* Animation de mouvement continue */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition douce pour le zoom et l'ombre */
+   
+   
 }
 @keyframes move  {
     0% { transform: translateY(0); }
@@ -140,10 +142,6 @@ header{
     background-color: white; 
     color: #0072b1; 
     transform: scale(1.05); 
-}
-
-.ensemble-project a:hover{
-    color: #1384cc;
     box-shadow: 0 0 20px #1384cc;
 }
 
